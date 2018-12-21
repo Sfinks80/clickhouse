@@ -1,5 +1,9 @@
 ## Clickhouse CHANGELOG
 
+### Version 0.1.11 (December 21, 2018)
+
+* Possibility to add default value in CREATE TABLE
+
 ### Version 0.1.10 (January 13, 2017)
 
 * Fixed `erubis` dependency once and for all
