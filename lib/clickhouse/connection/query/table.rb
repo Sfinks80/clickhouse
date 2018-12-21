@@ -41,7 +41,7 @@ module Clickhouse
                   .delete("_")
 
           type << "(#{args[1]})" if args[1]
-          type << args[2].to_s if args[2]
+          type << " #{args[2]}" if args[2]
           @columns << [args[0].to_s, type]
         end
 
